@@ -2,6 +2,7 @@
 # Cargar los modulos de los menues.
 echo "ACTUALIZANDO MODULOS"
 echo "*------------------*"
+mkdir tmp
 for dir in $(cat sources/menu.txt)
 do
 	if [[ -d "packages/$dir" ]]
